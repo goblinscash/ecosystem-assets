@@ -1,0 +1,172 @@
+[
+  {
+    "gecko_id": "evmos",
+    "tvl": 2533401.8129059356,
+    "tokenSymbol": "EVMOS",
+    "cmcId": null,
+    "name": "Evmos",
+    "chainId": 9001,
+    "chain": "Evmos",
+    "rpc": [
+      "https://eth.bd.evmos.org:8545",
+      "https://evmos-evm.publicnode.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Evmos",
+      "symbol": "EVMOS",
+      "decimals": 18
+    },
+    "infoURL": "https://evmos.org",
+    "shortName": "evmos",
+    "networkId": 9001,
+    "icon": "evmos",
+    "explorers": [
+      {
+        "name": "Evmos EVM Explorer (Escan)",
+        "url": "https://escan.live",
+        "standard": "none",
+        "icon": "evmos"
+      },
+      {
+        "name": "Evmos Cosmos Explorer (Mintscan)",
+        "url": "https://www.mintscan.io/evmos",
+        "standard": "none",
+        "icon": "evmos"
+      }
+    ]
+  },
+  {
+    "gecko_id": "vechain",
+    "tvl": 1398538.181063528,
+    "tokenSymbol": "VET",
+    "cmcId": "3077",
+    "name": "VeChain",
+    "chainId": 100009,
+    "chain": "VeChain",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "VeChain",
+      "symbol": "VET",
+      "decimals": 18
+    },
+    "infoURL": "https://vechain.org",
+    "shortName": "vechain",
+    "networkId": 100009,
+    "explorers": [
+      {
+        "name": "VeChain Stats",
+        "url": "https://vechainstats.com",
+        "standard": "none"
+      },
+      {
+        "name": "VeChain Explorer",
+        "url": "https://explore.vechain.org",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "gecko_id": null,
+    "tvl": 2656037.750106639,
+    "tokenSymbol": null,
+    "cmcId": null,
+    "name": "Polygon zkEVM",
+    "chainId": 1101,
+    "title": "Polygon zkEVM",
+    "chain": "Polygon",
+    "rpc": [
+      "https://zkevm-rpc.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://polygon.technology/polygon-zkevm",
+    "shortName": "zkevm",
+    "networkId": 1101,
+    "icon": "zkevm",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://zkevm.polygonscan.com",
+        "icon": "zkevm",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://bridge.zkevm-rpc.com"
+        }
+      ]
+    }
+  },
+  {
+    "gecko_id": "kintsugi",
+    "tvl": 1197148.01713002,
+    "tokenSymbol": "KINT",
+    "cmcId": "13675",
+    "name": "Kintsugi",
+    "chainId": 1337702,
+    "title": "Kintsugi merge testnet",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.kintsugi.themerge.dev"
+    ],
+    "faucets": [
+      "http://fauceth.komputing.org?chain=1337702&address=${ADDRESS}",
+      "https://faucet.kintsugi.themerge.dev"
+    ],
+    "nativeCurrency": {
+      "name": "kintsugi Ethere",
+      "symbol": "kiETH",
+      "decimals": 18
+    },
+    "infoURL": "https://kintsugi.themerge.dev/",
+    "shortName": "kintsugi",
+    "networkId": 1337702,
+    "explorers": [
+      {
+        "name": "kintsugi explorer",
+        "url": "https://explorer.kintsugi.themerge.dev",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "gecko_id": null,
+    "tvl": 2994685.7018169956,
+    "tokenSymbol": "ZENIQ",
+    "cmcId": null,
+    "name": "Zeniq",
+    "chainId": 383414847825,
+    "chain": "ZENIQ",
+    "rpc": [
+      "https://smart.zeniq.network:9545"
+    ],
+    "faucets": [
+      "https://faucet.zeniq.net/"
+    ],
+    "nativeCurrency": {
+      "name": "Zeniq",
+      "symbol": "ZENIQ",
+      "decimals": 18
+    },
+    "infoURL": "https://www.zeniq.dev/",
+    "shortName": "zeniq",
+    "networkId": 383414847825,
+    "explorers": [
+      {
+        "name": "zeniq-smart-chain-explorer",
+        "url": "https://smart.zeniq.net",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+]

@@ -1,10 +1,11 @@
 // fetchChains.js
 // grabs network data from chainid and marketcap data from defillama, merges the two, then filters by those that have marketcaps between 1 & 5 million
 
-const fetch = require("node-fetch");
-const fs = require("fs");
+import fetch from "node-fetch";
+import fs from "fs";
 
-const DEFI_LLAMA_API_URL = "https://api.defillama.com/chains";
+
+const DEFI_LLAMA_API_URL = "https://api.llama.fi/chains";
 const CHAIN_ID_API_URL = "https://chainid.network/chains.json";
 
 async function fetchDefiLlamaChains() {

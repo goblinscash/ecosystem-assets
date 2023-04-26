@@ -1,8 +1,9 @@
 // deploy.js
 
-require("dotenv").config();
-const fs = require("fs");
-const { ethers } = require("hardhat");
+import dotenv from "dotenv";
+import { ethers } from "hardhat";
+dotenv.config();
+
 
 const CONTRACT_NAME = "Goblin";
 const GOBLIN_SOL_FILE = "./contracts/Goblin.sol";
