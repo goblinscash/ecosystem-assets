@@ -34,7 +34,7 @@ async function main() {
 
   const filteredChains = defiLlamaChains.reduce((accumulator, chain) => {
     const mcap = parseFloat(chain.tvl / 1000000);
-    if (mcap >= 1 && mcap <= 5) {
+    if (mcap >= 1 && mcap <= 10) {
       const chainIdChain = chainIdChains.find((item) => item.name.toLowerCase() === chain.name.toLowerCase());
       if (chainIdChain) {
         accumulator.push({ ...chain, ...chainIdChain });
@@ -43,7 +43,7 @@ async function main() {
     return accumulator;
   }, []);
 
-  const outputFile = "filteredChainsWithNetworkData.json";
+  const outputFile = "filteredChainsWithNetworkData_10mil.json";
   fs.writeFileSync(outputFile, JSON.stringify(filteredChains, null, 2));
   console.log(`Filtered chains with network data saved to ${outputFile}`);
 }
